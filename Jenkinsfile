@@ -9,6 +9,7 @@ pipeline {
         stage('Unit Test'){
             steps{
                 sh 'echo "Running Tests"'
+		sh 'java -version'
             }
         }
     }
